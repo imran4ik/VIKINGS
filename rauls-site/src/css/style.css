@@ -1,0 +1,258 @@
+* {
+  box-sizing: border-box;
+}
+
+.form-control {
+  position: absolute;
+  width: 47%;
+  height: 60px;
+  font-size: 20px;
+  margin-top: 30px;
+  background: #FFFFFF;
+  box-shadow: inset 0px 5px 8px 1px rgba(0, 0, 0, 0.3);
+  border-radius: 50px;
+}
+
+.bald-man {
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  background-color: black;
+}
+
+.container-fluid {
+  width: 95%;
+}
+
+.left h1 {
+  position: absolute;
+  top: 190px;
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 120px;
+  line-height: 117px;
+  color: #FFFFFF;
+}
+
+.left h2 {
+  position: absolute;
+  left: 100px;
+  top: 335px;
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+
+.left h3 {
+  position: absolute;
+  width: 4px;
+  height: 41px;
+  left: 305px;
+  top: 328px;
+  background: #FF2C2B;
+  border-radius: 5px;
+}
+
+.left h4 {
+  position: absolute;
+  left: 330px;
+  top: 336px;
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 27px;
+  color: #FFFFFF;
+}
+
+.left p {
+  position: absolute;
+  top: 430px;
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+
+.left h5 {
+  margin-top: 550px;
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #FF2C2B;
+}
+
+.left h6 {
+  position: absolute;
+  top: 640px;
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+
+.right {
+  position: relative;
+}
+
+.right h1 {
+  position: absolute;
+  right: 300px;
+  top: 810px;
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 31px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+
+.right h2 {
+  position: absolute;
+  right: 0;
+  top: 210px;
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 18px;
+  color: #FFFFFF;
+  transform: rotate(90deg);
+}
+
+.right h3 {
+  position: absolute;
+  right: 76px;
+  top: 172px;
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 18px;
+  color: rgba(255, 255, 255, 0.6);
+  transform: rotate(90deg);
+}
+
+.line1 {
+  position: absolute;
+  width: 4px;
+  height: 55px;
+  right: 85px;
+  top: 286px;
+  background: #FF2C2B;
+  border-radius: 5px;
+  transform: rotate(90deg);
+}
+
+.right h4 {
+  position: absolute;
+  width: 190px;
+  left: 689px;
+  top: 420px;
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  color: #FFFFFF;
+  transform: rotate(90deg);
+}
+
+.line2 {
+  position: absolute;
+  width: 4px;
+  height: 55px;
+  right: 85px;
+  top: 520px;
+  background: #FF2C2B;
+  border-radius: 5px;
+  transform: rotate(90deg);
+}
+
+.right h5 {
+  position: absolute;
+  top: 353px;
+  right: 86px;
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 18px;
+  color: rgba(255, 255, 255, 0.6);
+  transform: rotate(90deg);
+}
+
+.right h6 {
+  position: absolute;
+  width: 190px;
+  left: 689px;
+  top: 650px;
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  color: #FFFFFF;
+  transform: rotate(90deg);
+}
+
+.composer {
+  position: absolute;
+  right: 68px;
+  top: 602px;
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 18px;
+  color: rgba(255, 255, 255, 0.6);
+  transform: rotate(90deg);
+}
+
+button {
+  margin-top: 90px;
+}
+
+.trailer img {
+  width: 320px;
+}
+
+.trailer2 img {
+  width: 320px;
+}
+
+.trailer {
+  position: absolute;
+  margin-top: 130px;
+}
+
+.trailer2 {
+  position: absolute;
+  margin-top: 130px;
+  margin-left: 350px;
+}
+
+.yt-cntnr {
+  position: relative;
+  width: 165px;
+  top: 745px;
+  left: 89px;
+}
+
+.yt {
+  position: absolute;
+  top: 812px;
+  margin-left: 165px;
+}
+
+.yt img{
+  width: 15px;
+}
